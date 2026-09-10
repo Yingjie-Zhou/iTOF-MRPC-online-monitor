@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+
+# Raw acquisition data is local and too large for the source repository
+itof/data/**
+!itof/data/.gitkeep
+
+# Manuscripts and presentation material are not part of the application release
+*.docx
+*.pptx
+
+# ROOT ACLiC build products
+itof/online/iTOFRootOnlineMonitor_C.d
+itof/online/iTOFRootOnlineMonitor_C.so
+itof/online/iTOFRootOnlineMonitor_C_ACLiC_dict_rdict.pcm
+
+# Local runtime state
+itof/online/logs/*.log
+itof/online/logs/*.pid
+itof/online/logs/*.tmp
+itof/online/logs/web_settings.json

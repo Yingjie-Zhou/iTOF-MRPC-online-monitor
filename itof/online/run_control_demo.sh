@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+PROJECT_DIR=$(cd "${SCRIPT_DIR}/../.." && pwd)
+cd "${PROJECT_DIR}"
+exec python3 itof/online/control_server.py --port "${1:-8088}" --start
