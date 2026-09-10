@@ -35,6 +35,7 @@ The service runs as the user who launches it. PID files, logs, `$HOME`, and ROOT
 ## Project Resources
 
 - `itof/data/`: monitored data directories
+- `itof/sample_data/20250514_10/`: small bundled example dataset
 - `itof/reco/map/`: electronics maps
 - `itof/macro/newchip/Calib_iTOF.root`: file-mode iTOF calibration
 - `itof/macro/newchip/CLSB.txt`: fine-time calibration data
@@ -43,3 +44,14 @@ The service runs as the user who launches it. PID files, logs, `$HOME`, and ROOT
 - `itof/online/logs/`: local logs and saved web settings
 
 The default `self` calibration mode does not require `Calib_iTOF.root`. Select file calibration in the web page when the bundled calibration should be applied.
+
+## Example Data
+
+The repository includes a small cosmic-ray dataset of approximately 247 KB. To try it from the web interface:
+
+1. Set **Data path** to `<project>/itof/sample_data`.
+2. Select subfolder `20250514_10`.
+3. Select `iTOFMap_batch2408.csv` as the electronics map.
+4. Start the monitor.
+
+The sample contains 283 recorded events and is intended for deployment checks and interface demonstrations, not detector-performance studies.

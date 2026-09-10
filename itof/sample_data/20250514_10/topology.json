@@ -1,0 +1,118 @@
+{
+    "name": "OCS_0_0",
+    "value": "0x8000",
+    "children": [
+        {
+            "name": "DAS_1_0",
+            "value": "0x9000",
+            "children": [
+                {
+                    "name": "PCIe_2_0",
+                    "value": "0x9800",
+                    "children": [
+                        {
+                            "name": "PXI_3_0",
+                            "value": "0x9880",
+                            "children": [
+                                {
+                                    "name": "TOF-FEE_4_0",
+                                    "value": "0x9884"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_1",
+                                    "value": "0x9888"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_2",
+                                    "value": "0x988c"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_3",
+                                    "value": "0x9890"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_4",
+                                    "value": "0x9894"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_5",
+                                    "value": "0x9898"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_6",
+                                    "value": "0x989c"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_7",
+                                    "value": "0x98a0"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_8",
+                                    "value": "0x98a4"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_9",
+                                    "value": "0x98a8"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_10",
+                                    "value": "0x98ac"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_11",
+                                    "value": "0x98b0"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_12",
+                                    "value": "0x98b4"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_13",
+                                    "value": "0x98b8"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_14",
+                                    "value": "0x98bc"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_15",
+                                    "value": "0x98c0"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PXI_3_1",
+                            "value": "0x9900",
+                            "children": [
+                                {
+                                    "name": "TOF-FEE_4_16",
+                                    "value": "0x9904"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_17",
+                                    "value": "0x9908"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_18",
+                                    "value": "0x990c"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_19",
+                                    "value": "0x9910"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_20",
+                                    "value": "0x9914"
+                                },
+                                {
+                                    "name": "TOF-FEE_4_21",
+                                    "value": "0x9918"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

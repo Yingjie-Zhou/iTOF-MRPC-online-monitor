@@ -1,0 +1,10 @@
+{
+    "subsys": [
+        {
+            "subsys": "DAQ",
+            "version": "1.0",
+            "info": "default"
+        }
+    ],
+    "work_mode": "default"
+}
